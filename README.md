@@ -35,7 +35,7 @@ This website is currently hosted at nidafarooq.co.uk and was deployed through Ne
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/nadacoder2021/website/blob/master/src/assets/website.png)
 
 
 ## 🔗 Links
