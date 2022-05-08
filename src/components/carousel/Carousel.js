@@ -34,7 +34,7 @@ function Carousel({ children }) {
       const interval = setInterval(() => {
           if(!paused){
           updateIndex(activeIndex + 1)};
-      }, 2000)
+      }, 3000)
 
       return () => {
           if(interval){
