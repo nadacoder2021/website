@@ -2,9 +2,10 @@ import React from "react";
 import { Carousel, CarouselItem } from "../../components";
 import { Feature } from "../../components";
 import tribe from "../../assets/tribe.png";
-import next from "../../assets/next.jpeg"
-import tic from "../../assets/ti.png"
-import website from "../../assets/website.png"
+import next from "../../assets/next.jpeg";
+import tic from "../../assets/ti.png";
+import website from "../../assets/website.png";
+import weather from "../../assests/weather.png";
 import "./Projects.css";
 
 function Projects(props) {
@@ -44,6 +45,13 @@ function Projects(props) {
           text="Using Javascript logic, React, useState and useEffect hooks we created a 3 x 3 Tic Tac Toe game  "
           image={tic}
           link="https://github.com/SchoolOfCode/noughts-and-crosses-plan-room22-chirag-austyn-nada"
+        ></CarouselItem>
+        <CarouselItem
+          className="gpt3__features-item1"
+          title="Weather App"
+          text="Developed this app as a precursor to job interview for the company 383. Using react, react hooks, API calls, we built a web application that shows the forecast of 8 days of your chosen city. It displays temperature, description of weather and the relevant descriptive icon"
+          image={weather}
+          link="https://github.com/nadacoder2021/Weather-app"
         ></CarouselItem>
       </Carousel>
     </div>

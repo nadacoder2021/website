@@ -13,7 +13,7 @@ function ContactMe(props) {
 
         <input type="email" name="email" placeholder="Enter your email" />
 
-        <textarea name="message" placeholder="Messaage"></textarea>
+        <textarea name="message" placeholder="Message"></textarea>
 
         <button className="button" type="submit">Submit</button>
       </form>
