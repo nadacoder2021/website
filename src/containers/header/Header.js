@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import "./Header.css";
-import resume from "../../assets/resume.pdf"
+import resume from "../../assets/Resume.pdf"
 import TypeAnimation from "react-type-animation";
 import { Canvas } from "@react-three/fiber";
 import SphereAnimation from "../../components/box/Box";
