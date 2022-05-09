@@ -5,7 +5,7 @@ import tribe from "../../assets/tribe.png";
 import next from "../../assets/next.jpeg";
 import tic from "../../assets/ti.png";
 import website from "../../assets/website.png";
-import weather from "../../assests/weather.png";
+import weather from "../../assets/weather.png";
 import "./Projects.css";
 
 function Projects(props) {
