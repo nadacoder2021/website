@@ -6,6 +6,7 @@ import next from "../../assets/next.jpeg";
 import tic from "../../assets/ti.png";
 import website from "../../assets/website.png";
 import weather from "../../assets/weather.png";
+import fitness from "../../assets/fitness.png"
 import "./Projects.css";
 
 function Projects(props) {
@@ -24,6 +25,13 @@ function Projects(props) {
           This is an app built with a React Native and Firebase, using the Expo framework. The app has been designed to be run on iPhone 11."
           image={tribe}
           link="https://github.com/nadacoder2021/TribeApp1"
+        ></CarouselItem>
+        <CarouselItem
+          className="gpt3__features-item1"
+          title="Fitness Social Media App"
+          text="Inspired by an interview I had with a company starting a Fitness App - I made this multiple page app using React, reach hooks and populate a postgresSQL database using Prisma CLI. This is a full stack application build using nodeJS, reactJS and postgresSQL "
+          image={fitness}
+          link="https://github.com/nadacoder2021/FitWith"
         ></CarouselItem>
         <CarouselItem
           className="gpt3__features-item1"
